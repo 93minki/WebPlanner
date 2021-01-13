@@ -1,0 +1,72 @@
+html{
+    background:url("images/frontImage2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#lang{
+    text-align: right;
+    margin-right: 10px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 4rem;
+}
+#userInfo{
+    color: white;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+#input_id{
+    width: 30%;
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#input_pw{
+    width: 30%;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#submit{
+    width: 15%;
+    font-size: 2rem;
+    margin-top:20px;
+    margin-bottom: 30px;
+}
+
+#sign{
+    width: 15%;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#findInfo{
+    width: 30%;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#imageSource{
+    position: absolute;
+    clear: left;
+    float: left;
+    width: 500px;
+    height: 50px;
+    right: 0;
+    bottom: 0px;
+    margin-right: 10px;
+}

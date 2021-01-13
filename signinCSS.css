@@ -1,0 +1,64 @@
+html{
+    background:url("images/frontImage2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 4rem;
+}
+
+#lang{
+    text-align: right;
+    margin-right: 10px;
+}
+
+#userInfo{
+    color: white;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+#ID{
+    margin: 20px;
+    font-size: 2rem;
+}
+
+#PW{
+    margin: 20px;
+    font-size: 2rem;
+}
+
+#Name{
+    margin: 20px;
+    font-size: 2rem;
+}
+
+#Email{
+    margin: 20px;
+    font-size: 2rem;
+}
+
+#info input{
+    width: 50%;
+    margin : 20px;
+    font-size: 2rem;
+}
+
+#imageSource{
+    position: absolute;
+    clear: left;
+    float: left;
+    width: 500px;
+    height: 50px;
+    right: 0;
+    bottom: 0px;
+    margin-right: 10px;
+}

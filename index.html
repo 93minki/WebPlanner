@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="loginPageCSS.css">
+</head>
+
+<body>
+    <div id="lang">
+        <input type="radio" id="KOR" name="language" value="KOR">
+        <label for="KOR">KOR</label>
+        <input type="radio" id="ENG" name="language" value="ENG" checked>
+        <label for="ENG">ENG</label>
+    </div>
+    <h1>Login</h1>
+    <div id="userInfo">
+        <form id="info" action="">
+            <input type="text" id="input_id" placeholder="ID">
+            <br>
+            <input type="password" id="input_pw" placeholder="Password">
+            <br>
+            <input type="submit" id="submit" value="Send">
+            <input type="button" id="sign" value="Sign" onclick="location.href='signIn.html'">
+            <br>
+            <input type="button" id="findInfo" value="Find ID/PW">
+        </form>
+        
+    </div>
+
+    <div id="imageSource">
+        image from : https://unsplash.com/photos/mexeVPlTB6k
+    </div>
+    <script src="selectLang.js"></script>
+</body>
+
+</html>
